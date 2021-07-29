@@ -48,7 +48,7 @@ function init_and_slider(){
                         Modal_page(items[key]);
                     };
 
-                if(item == 2 || item == 4) div.setAttribute("style", `left: 0; top: 10%; width: ${(()=>(item == 4) ? '35%' : '50%')()}`);
+                if(item == 2 || item == 4) div.setAttribute("style", `left: 0; top: -20%; width: ${(()=>(item == 4) ? '35%' : '50%')()}`);
 
                 const h1 = document.createElement('h1');
                     h1.innerText = (items[key].name);
